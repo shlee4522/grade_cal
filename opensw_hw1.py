@@ -12,7 +12,7 @@ def calculate_total_score(scores):
 
 def calculate_average_score(total_score):
   return total_score / 3
-
+ 
 def calculate_grade(average_score):
   if average_score >= 90:
     return "A"
